@@ -1,8 +1,12 @@
 # RiverCity Housing Lab
 
+[Open the live dashboard](https://mayursharma12.github.io/real-estate/)
+
 A browser-based housing market dashboard and home-buying planner for Greater Cincinnati and Northern Kentucky. Use it to compare ZIPs on both sides of the Ohio River and test a purchase budget three to five years out.
 
 The October 2026 snapshot includes 110 ZIP codes and monthly home-value history back to January 2016.
+
+![RiverCity Housing Lab market overview with Cincinnati metro metrics, a historical ZIP comparison, and a regional ZIP value map](assets/dashboard.jpg)
 
 ## Try it in one minute
 
@@ -44,7 +48,7 @@ The planner uses a user-supplied annual price change and standard fixed-rate amo
 
 - `docs/` contains the static site, the normalized Zillow snapshot, and simplified Census geometry. GitHub Pages serves this folder directly.
 - `scripts/` contains the Python data pipeline. It aligns the six ZIP and metro series to common observation months and preserves missing values.
-- The browser joins ZIP values to Census representative points, draws the charts, and calculates the purchase scenarios. You can inspect or export each filtered ZIP’s available monthly observations.
+- The browser draws the charts and map from the bundled data and calculates purchase scenarios. You can inspect or export each filtered ZIP’s available monthly observations.
 
 ## Sources
 
